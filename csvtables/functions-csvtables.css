@@ -1,0 +1,24 @@
+/**
+ * STYLESHEETS FOR csvtables.js TABLES
+ */
+
+table.csvtable {
+}
+
+table.csvtable thead th:not(:first-child) {
+    padding-right: 2rem !important;
+}
+
+table.csvtable tbody td:not(:first-child) {
+    text-align: right;
+}
+
+table.csvtable caption {
+    padding: 1em 0 0 0;
+    color: inherit;
+}
+
+div.csvtable-wrapper div.csvtable-after a:first-child {
+    float: right;
+    margin: 0 0 1em 1em;
+}
